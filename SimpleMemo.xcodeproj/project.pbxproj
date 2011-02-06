@@ -1,0 +1,337 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0814B30012FD18E500301701 /* SimpleCoreData.m in Sources */ = {isa = PBXBuildFile; fileRef = 0814B2FD12FD18E500301701 /* SimpleCoreData.m */; };
+		0814B30112FD18E500301701 /* SimpleCoreDataFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 0814B2FF12FD18E500301701 /* SimpleCoreDataFactory.m */; };
+		0814B31012FD194100301701 /* SimpleMemoInput.m in Sources */ = {isa = PBXBuildFile; fileRef = 0814B30F12FD194100301701 /* SimpleMemoInput.m */; };
+		0814B33512FD196C00301701 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0814B33412FD196C00301701 /* CoreData.framework */; };
+		0814B3B712FD23C600301701 /* camera.png in Resources */ = {isa = PBXBuildFile; fileRef = 0814B3B612FD23C600301701 /* camera.png */; };
+		0814B45712FD30B500301701 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0814B45612FD30B500301701 /* CoreLocation.framework */; };
+		0814B49412FD360E00301701 /* SimpleMemo.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 0814B49312FD360E00301701 /* SimpleMemo.xcdatamodel */; };
+		0814B4BA12FD386700301701 /* LocationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0814B4B912FD386700301701 /* LocationController.m */; };
+		0814B55512FD5DBF00301701 /* SimpleMemoTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 0814B55412FD5DBF00301701 /* SimpleMemoTable.m */; };
+		0814B68812FD699600301701 /* SimpleMemoInput.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0814B34512FD1A1E00301701 /* SimpleMemoInput.xib */; };
+		0814B68912FD69A100301701 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0814B33D12FD19B200301701 /* Localizable.strings */; };
+		0814B68A12FD69AA00301701 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0814B33F12FD19CA00301701 /* InfoPlist.strings */; };
+		0814B68F12FD69CE00301701 /* SimpleMemoTableDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 0814B68E12FD69CE00301701 /* SimpleMemoTableDetail.m */; };
+		0814B69112FD69DF00301701 /* SimpleMemoTableDetail.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0814B69012FD69DF00301701 /* SimpleMemoTableDetail.xib */; };
+		0814B78812FD792600301701 /* DisplayImageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0814B78712FD792600301701 /* DisplayImageController.m */; };
+		0814B78A12FD793500301701 /* DisplayImageController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0814B78912FD793500301701 /* DisplayImageController.xib */; };
+		0814B86412FE5AE600301701 /* DisplayMapController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0814B86312FE5AE600301701 /* DisplayMapController.m */; };
+		0814B86612FE5AF500301701 /* DisplayMapController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0814B86512FE5AF500301701 /* DisplayMapController.xib */; };
+		0814B86812FE5B6900301701 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0814B86712FE5B6900301701 /* MapKit.framework */; };
+		1D3623260D0F684500981E51 /* SimpleMemoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* SimpleMemoAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0814B2FC12FD18E500301701 /* SimpleCoreData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleCoreData.h; sourceTree = "<group>"; };
+		0814B2FD12FD18E500301701 /* SimpleCoreData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleCoreData.m; sourceTree = "<group>"; };
+		0814B2FE12FD18E500301701 /* SimpleCoreDataFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleCoreDataFactory.h; sourceTree = "<group>"; };
+		0814B2FF12FD18E500301701 /* SimpleCoreDataFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleCoreDataFactory.m; sourceTree = "<group>"; };
+		0814B30E12FD194100301701 /* SimpleMemoInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleMemoInput.h; sourceTree = "<group>"; };
+		0814B30F12FD194100301701 /* SimpleMemoInput.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleMemoInput.m; sourceTree = "<group>"; };
+		0814B33412FD196C00301701 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		0814B33D12FD19B200301701 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		0814B33F12FD19CA00301701 /* InfoPlist.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = InfoPlist.strings; sourceTree = "<group>"; };
+		0814B34512FD1A1E00301701 /* SimpleMemoInput.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SimpleMemoInput.xib; sourceTree = "<group>"; };
+		0814B3B612FD23C600301701 /* camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera.png; sourceTree = "<group>"; };
+		0814B45612FD30B500301701 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		0814B49312FD360E00301701 /* SimpleMemo.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; path = SimpleMemo.xcdatamodel; sourceTree = "<group>"; };
+		0814B4B812FD386700301701 /* LocationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationController.h; sourceTree = "<group>"; };
+		0814B4B912FD386700301701 /* LocationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationController.m; sourceTree = "<group>"; };
+		0814B55312FD5DBF00301701 /* SimpleMemoTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleMemoTable.h; sourceTree = "<group>"; };
+		0814B55412FD5DBF00301701 /* SimpleMemoTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleMemoTable.m; sourceTree = "<group>"; };
+		0814B68D12FD69CE00301701 /* SimpleMemoTableDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleMemoTableDetail.h; sourceTree = "<group>"; };
+		0814B68E12FD69CE00301701 /* SimpleMemoTableDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleMemoTableDetail.m; sourceTree = "<group>"; };
+		0814B69012FD69DF00301701 /* SimpleMemoTableDetail.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SimpleMemoTableDetail.xib; sourceTree = "<group>"; };
+		0814B78612FD792600301701 /* DisplayImageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisplayImageController.h; sourceTree = "<group>"; };
+		0814B78712FD792600301701 /* DisplayImageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DisplayImageController.m; sourceTree = "<group>"; };
+		0814B78912FD793500301701 /* DisplayImageController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DisplayImageController.xib; sourceTree = "<group>"; };
+		0814B86212FE5AE600301701 /* DisplayMapController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisplayMapController.h; sourceTree = "<group>"; };
+		0814B86312FE5AE600301701 /* DisplayMapController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DisplayMapController.m; sourceTree = "<group>"; };
+		0814B86512FE5AF500301701 /* DisplayMapController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DisplayMapController.xib; sourceTree = "<group>"; };
+		0814B86712FE5B6900301701 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* SimpleMemoAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleMemoAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* SimpleMemoAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleMemoAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* SimpleMemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleMemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* SimpleMemo_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleMemo_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* SimpleMemo-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "SimpleMemo-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
+				0814B33512FD196C00301701 /* CoreData.framework in Frameworks */,
+				0814B45712FD30B500301701 /* CoreLocation.framework in Frameworks */,
+				0814B86812FE5B6900301701 /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1D3623240D0F684500981E51 /* SimpleMemoAppDelegate.h */,
+				1D3623250D0F684500981E51 /* SimpleMemoAppDelegate.m */,
+				0814B30E12FD194100301701 /* SimpleMemoInput.h */,
+				0814B30F12FD194100301701 /* SimpleMemoInput.m */,
+				0814B34512FD1A1E00301701 /* SimpleMemoInput.xib */,
+				0814B55312FD5DBF00301701 /* SimpleMemoTable.h */,
+				0814B55412FD5DBF00301701 /* SimpleMemoTable.m */,
+				0814B68D12FD69CE00301701 /* SimpleMemoTableDetail.h */,
+				0814B68E12FD69CE00301701 /* SimpleMemoTableDetail.m */,
+				0814B69012FD69DF00301701 /* SimpleMemoTableDetail.xib */,
+				0814B78612FD792600301701 /* DisplayImageController.h */,
+				0814B78712FD792600301701 /* DisplayImageController.m */,
+				0814B78912FD793500301701 /* DisplayImageController.xib */,
+				0814B86212FE5AE600301701 /* DisplayMapController.h */,
+				0814B86312FE5AE600301701 /* DisplayMapController.m */,
+				0814B86512FE5AF500301701 /* DisplayMapController.xib */,
+				0814B4B812FD386700301701 /* LocationController.h */,
+				0814B4B912FD386700301701 /* LocationController.m */,
+				0814B2FC12FD18E500301701 /* SimpleCoreData.h */,
+				0814B2FD12FD18E500301701 /* SimpleCoreData.m */,
+				0814B2FE12FD18E500301701 /* SimpleCoreDataFactory.h */,
+				0814B2FF12FD18E500301701 /* SimpleCoreDataFactory.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* SimpleMemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* SimpleMemo_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0814B3B612FD23C600301701 /* camera.png */,
+				8D1107310486CEB800E47090 /* SimpleMemo-Info.plist */,
+				0814B33D12FD19B200301701 /* Localizable.strings */,
+				0814B33F12FD19CA00301701 /* InfoPlist.strings */,
+				0814B49312FD360E00301701 /* SimpleMemo.xcdatamodel */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
+				0814B33412FD196C00301701 /* CoreData.framework */,
+				0814B45612FD30B500301701 /* CoreLocation.framework */,
+				0814B86712FE5B6900301701 /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* SimpleMemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "SimpleMemo" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleMemo;
+			productName = SimpleMemo;
+			productReference = 1D6058910D05DD3D006BFB54 /* SimpleMemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "SimpleMemo" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* SimpleMemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0814B68912FD69A100301701 /* Localizable.strings in Resources */,
+				0814B68A12FD69AA00301701 /* InfoPlist.strings in Resources */,
+				0814B68812FD699600301701 /* SimpleMemoInput.xib in Resources */,
+				0814B3B712FD23C600301701 /* camera.png in Resources */,
+				0814B69112FD69DF00301701 /* SimpleMemoTableDetail.xib in Resources */,
+				0814B78A12FD793500301701 /* DisplayImageController.xib in Resources */,
+				0814B86612FE5AF500301701 /* DisplayMapController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* SimpleMemoAppDelegate.m in Sources */,
+				0814B30012FD18E500301701 /* SimpleCoreData.m in Sources */,
+				0814B30112FD18E500301701 /* SimpleCoreDataFactory.m in Sources */,
+				0814B31012FD194100301701 /* SimpleMemoInput.m in Sources */,
+				0814B49412FD360E00301701 /* SimpleMemo.xcdatamodel in Sources */,
+				0814B4BA12FD386700301701 /* LocationController.m in Sources */,
+				0814B55512FD5DBF00301701 /* SimpleMemoTable.m in Sources */,
+				0814B68F12FD69CE00301701 /* SimpleMemoTableDetail.m in Sources */,
+				0814B78812FD792600301701 /* DisplayImageController.m in Sources */,
+				0814B86412FE5AE600301701 /* DisplayMapController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = SimpleMemo_Prefix.pch;
+				INFOPLIST_FILE = "SimpleMemo-Info.plist";
+				PRODUCT_NAME = SimpleMemo;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = SimpleMemo_Prefix.pch;
+				INFOPLIST_FILE = "SimpleMemo-Info.plist";
+				PRODUCT_NAME = SimpleMemo;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "SimpleMemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "SimpleMemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

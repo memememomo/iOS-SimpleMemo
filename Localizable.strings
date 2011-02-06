@@ -1,0 +1,25 @@
+/* 
+   Localizable.strings
+   SimpleMemo
+
+   Created by Your Name on 11/02/05.
+   Copyright 2011 Your Org Name. All rights reserved.
+ */
+
+
+"MEMO_TITLE" = "入力";
+"LIST_TITLE" = "リスト";
+
+"SAVE_CONFIRM_MESSAGE" = "保存しますか？";
+"DELETE_CONFIRM_MESSAGE" = "削除しますか？";
+
+"CONFIRM_YES" = "はい";
+"CONFIRM_NO"  = "いいえ";
+"CONFIRM_CANCEL" = "キャンセル";
+
+"CAMERA" = "カメラ";
+"ALBUM" = "アルバム";
+
+"NOT_TEXT" = "テキストが入力されていません";
+
+"CANT_LOCATION" = "位置情報が取得できませんでした";
